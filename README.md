@@ -91,13 +91,13 @@ Jadi, memilih "/" sebagai mount point saat instalasi Linux sangat penting karena
 ## Penjelasan Sistem File
 
 ### Sistem File Linux
-- **ext4**: Sistem file modern untuk Linux dengan kinerja tinggi dan fitur canggih.
-- **ext3**: Pendahulu ext4, masih digunakan pada sistem lama. Menawarkan journaling untuk melindungi data dari kerusakan, tetapi memiliki beberapa keterbatasan dibandingkan ext4. Secara bertahap digantikan oleh ext4 karena fitur-fitur yang lebih canggih.
+- **ext4 (Fourth Extended File System)**: Sistem file modern untuk Linux dengan kinerja tinggi dan fitur canggih.
+- **ext3 Third Extended File System)**: Pendahulu ext4, masih digunakan pada sistem lama. Menawarkan journaling untuk melindungi data dari kerusakan, tetapi memiliki beberapa keterbatasan dibandingkan ext4. Secara bertahap digantikan oleh ext4 karena fitur-fitur yang lebih canggih.
 - **swap**: Area untuk memori virtual, bukan sistem file sebenarnya. Ketika RAM penuh, sistem operasi akan memindahkan data yang tidak sering digunakan ke swap untuk membebaskan RAM. 
 
 ### Sistem File Windows
-- **NTFS**: Sistem file default Windows modern dengan fitur keamanan dan enkripsi. Ideal untuk hard disk utama pada komputer Windows.
-- **FAT32**: Sistem file lama,masih digunakan pada perangkat penyimpanan eksternal seperti flash drive dan kartu memori. Memiliki keterbatasan ukuran file dan partisi, tetapi kompatibel dengan berbagai sistem operasi.
+- **NTFS (New Technology File System)**: Sistem file default Windows modern dengan fitur keamanan dan enkripsi. Ideal untuk hard disk utama pada komputer Windows.
+- **FAT32 (File Allocation Table 32)**: Sistem file lama,masih digunakan pada perangkat penyimpanan eksternal seperti flash drive dan kartu memori. Memiliki keterbatasan ukuran file dan partisi, tetapi kompatibel dengan berbagai sistem operasi.
 
 ### Sistem File Modern
-- **BTRFS**: Sistem file baru dengan fitur canggih seperti snapshot dan checksum.
+- **BTRFS (B-tree file system):**: Sistem file baru dengan fitur canggih seperti snapshot dan checksum.
